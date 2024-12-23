@@ -17,29 +17,15 @@ Authentication:
 Sign Up: Allows new users to create an account.
 Sign In: Allows existing users to log in.
 Logout: Ends the user session.
-Folder Structure
-php
-Copy code
-library_system/
-├── app.py         # Main Flask application file
-├── static/        # Contains CSS, JavaScript, and images
-│   ├── images/    # Book cover images
-│   ├── styles.css # Styling for the web pages
-│   └── script.js  # JavaScript for interactivity
-├── templates/     # HTML files for different pages
-│   ├── index.html
-│   ├── books.html
-│   ├── cart.html
-│   ├── checkout.html
-│   ├── signin.html
-│   └── signup.html
-└── README.md      # Project documentation file
+Folder Structure 
+
+
+
 How to Run the Project
 Install Python (version 3.x) on your system.
 Clone or download this repository:
 bash
 Copy code
-git clone https://github.com/yourusername/library-system.git
 Navigate to the project directory:
 bash
 Copy code
@@ -56,6 +42,8 @@ Open your web browser and navigate to:
 arduino
 Copy code
 http://127.0.0.1:5000
+
+
 Team Contributions
 Abdelrahman Fayiz Mowad (ID: 42120006):
 Developed the front-end using HTML and CSS.
@@ -79,12 +67,16 @@ Back-end: Python (Flask framework)
 Front-end: HTML, CSS, JavaScript
 Design: CSS for styling and responsive design
 Version Control: Git and GitHub
+
+
 Future Enhancements
 Add a database (e.g., MySQL or SQLite) for persistent user and cart data.
 Enable admin functionality to manage the book inventory.
 Include payment integration for real-world transactions.
 Enhance the user interface with animations and transitions.
 Add unit testing to ensure application reliability.
+
+
 Contact
 For questions or support, please reach out to:
 
